@@ -1,0 +1,142 @@
+/* Add here all your css styles (customizations) */
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif,"Microsoft JhengHei" !important;
+}
+
+.profile .profile-body {
+    background: #f5f6f8;
+}
+
+.cbp-l-project-title {
+    font: 600 42px/46px "Open Sans", sans-serif,"Microsoft JhengHei" !important;
+}
+
+.breadcrumbs-v3.breadcrumbs-lg{
+	padding: 240px 0;
+}
+
+@media (max-width: 768px){
+    .breadcrumbs-v3, .breadcrumbs-v3.breadcrumbs-lg {
+        padding: 50px 0;
+    }
+}
+@media (max-width: 992px){
+	.breadcrumbs-v3.breadcrumbs-lg {
+	    padding: 100px 0;
+	}
+}
+
+.breadcrumbs-v1, .breadcrumbs-v3 {
+    -webkit-transition: all 0s ease-in-out; 
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0s ease-in-out; 
+}
+
+.breadcrumbs-v3.img-m1{
+	background: url(https://1.bp.blogspot.com/-OQKMyBJ5HNA/WC2eDAtvmMI/AAAAAAAACkQ/wsSFzI81F-MrmzL39Lag62meOvWcLdhLgCLcB/s1600/banner1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.breadcrumbs-v3.img-m2{
+    background: url(https://1.bp.blogspot.com/-uyQAbksYDRo/W5Xe3EVhLtI/AAAAAAAAC6A/xjNVHucCXW4WZHl-Q2uYKJbqUYk2HgB1QCLcBGAs/s1600/31.jpg) repeat;
+    background-size: cover;
+    background-position: center 0px;
+}
+
+.content-xlg {
+    padding-top: 200px !important;
+    padding-bottom: 150px !important;
+}
+
+.list-unstyled li{
+	font-size: 16px !important; 
+	padding:2px 0;
+}
+
+.header-v6.header-white-transparent .navbar {
+	background: rgba(0,0,0,0.5);
+}
+
+
+/*******Black theme********/
+.base-info, .profile-body{
+    background: rgba(60,60,60,1) !important;
+}
+
+.about-me h2,.about-me .headline-brd {
+    color: rgb(220,220,220);
+}
+.about-me p {
+    color: rgb(200,200,200);
+}
+.profile-body .panel-body,.profile-body .panel-heading,
+.profile-body .panel-body li, .profile-body .panel-body h3{
+    color: rgb(180,180,180) !important;
+    background: rgba(50,50,50,1) !important;
+}
+
+.profile-body .panel-heading {
+    border-bottom: solid 3px rgb(100,100,100);
+}
+.profile-body .panel {
+    border-radius: 30px;
+    /*border: 2px solid transparent !important;*/
+    background-color: rgb(125,125,125);
+}
+.panel-heading {
+    border-radius: 10px 10px 0px 0px;
+}
+.panel-body{
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+@media (max-width: 991px){
+	.header-v6.header-white-transparent .navbar {
+    	background: rgba(255,255,255,0.5);
+	}
+}
+
+@media (min-width: 992px)
+{
+    .header-fixed .header-v6.header-white-transparent.header-fixed-shrink .navbar {
+        background: #f5f6f8;
+    }
+    .header-v6 .navbar-nav > li > a,
+    .header-v6 .navbar-nav > .active > a {
+        transition: all 0.4s cubic-bezier(.7, 1, .7, 1);
+        color: #fff;
+        font-weight: 200;
+        background: none;
+    }
+
+    .header-v6 .navbar-nav .active > a,
+    .header-v6 .navbar-nav > li > a:hover,
+    .header-v6 .navbar-nav > li > a:focus,
+    .header-v6 .navbar-nav > .active > a:hover,
+    .header-v6 .navbar-nav > .active > a:focus {
+        color: #fff;
+        text-decoration:underline;
+    }
+    
+    .header-fixed .header-v6.header-fixed-shrink .navbar-nav .active > a,
+    .header-fixed .header-v6.header-fixed-shrink .navbar-nav li > a:hover {
+        color: #72c02c;
+        text-decoration:none;
+    }
+
+    h2.title-v2:after {
+
+    }
+
+    .textlineThrow {
+        /*color:#a9a9a9;*/
+        text-decoration:line-through;
+    }
+
+}
+
+.parallax-counter-v2:after {
+    border-top: 25px solid #f5f6f8 !important;
+}

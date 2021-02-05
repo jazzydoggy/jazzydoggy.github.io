@@ -1,0 +1,12 @@
+.footer{
+    padding-top: 5px !important;
+}
+.footer-links{
+/*    font-size: 18px;
+    margin-top:-21px;*/
+    font-size: 22px;
+    margin-top: -28px;
+}
+.container-links{
+    background-color: rgba(0,0,0,0);
+}
